@@ -50,6 +50,7 @@ This repository contains the api test created for sky technical test by Ravi
             python3 -m pytest --alluredir=allure-results
        4. To access allure report, open below url in a browser (reports will be stored in allure-reports folder)
             http://localhost:5050/allure-docker-service/latest-report
+       5. Note: It may take upto 3 seconds for the test results to updated on the web page
 
 # 5. Wiki
     1. allure - used for reporting
