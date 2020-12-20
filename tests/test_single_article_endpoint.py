@@ -21,5 +21,4 @@ def test_delete_request_is_unsuccessful():
 
 
 def test_no_of_total_articles_received():
-    print(requests.get(url=single_article_url).text)
     verify_no_of_total_articles_received(single_article_url)
