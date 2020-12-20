@@ -2,7 +2,6 @@ import requests
 
 from helpers.api_helper import verify_resp_type_status_code, verify_no_of_total_articles_received
 from helpers.end_points import single_article_url
-from jsonschema import validate, ValidationError, SchemaError
 
 
 def test_get_request_is_successful():
