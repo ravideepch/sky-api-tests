@@ -8,7 +8,8 @@ This repository contains the api test created for sky technical test by Ravi
 # Folder structure
 	1.Al tests are in tests folder
 	2.All helper classes are in helpers folder
-	3.Hooks can be found in conftest.py file in tests folder
+	3.Test results will be stored in allure-results folder
+    4.Reports will be stored in allure-results folder
 
 # Libraries and python version used in framework
 	1. python 3.7
@@ -20,7 +21,6 @@ This repository contains the api test created for sky technical test by Ravi
 	1.Need to install Docker
         https://docs.docker.com/get-docker/
     2.Docker should be up and running
-    3. 
         
 # 2. Initial setup 
     # With docker
@@ -40,7 +40,7 @@ This repository contains the api test created for sky technical test by Ravi
         1. To run all tests run below command from project root folder
             python3 -m pytest
         2. To run a specific test file
-	        python3 -m pytest python_file_name.py
+	        python3 -m pytest python_test_file_name.py
 
 # 4. Reporting
     allure is used for reporting
