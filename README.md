@@ -12,7 +12,7 @@ This repository contains the api test created for sky technical test by Ravi
     4.Reports will be stored in allure-results folder
 
 # Libraries and python version used in framework
-	1. python 3.7
+	1. python 3.7.9
 	2. pytest
 	3. requests
 	4. allure
@@ -41,6 +41,12 @@ This repository contains the api test created for sky technical test by Ravi
             python3 -m pytest
         2. To run a specific test file
 	        python3 -m pytest python_test_file_name.py
+
+# 3. To exit test framework and docker
+        1. To exit from docker container running tests run below command 
+            exit
+        2. To stop docker container run below command
+	        docker-compose down
 
 # 4. Reporting
     allure is used for reporting
