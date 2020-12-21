@@ -1,17 +1,16 @@
 import pytest
 
 from helpers.ApiTestHelper import ApiTestHelper
-from helpers.end_points import multiple_article_url
+from helpers.end_points import single_article_url
 
 
 @pytest.fixture()
 def setup():
-    api_test = ApiTestHelper(multiple_article_url)
+    api_test = ApiTestHelper(single_article_url)
     yield api_test
 
 
-class TestMultipleArticleEndpoint:
-
+class TestSingleArticle:
     def test_get_request_is_successful(self, setup):
         setup.verify_resp_type_status_code('GET')
 
