@@ -10,6 +10,8 @@ This repository contains the api test created for sky technical test by Ravi
 	2.All helper classes are in helpers folder
 	3.Test results will be stored in allure-results folder
     4.Reports will be stored in allure-results folder
+    5.All endpoints are in helpers/end_points.py file
+    6. All helper methods are in helpers/ApitestHelper.py
 
 # Libraries and python version used in framework
 	1. python 3.7.9
