@@ -30,7 +30,7 @@ class ApiTestHelper:
         response_in_dict = requests.get(url=self.url).json()
         if self.url == single_article_url:
             assert 'id' in response_in_dict, 'Article should have expected field'
-            assert response_in_dict.get('id') == 2, 'Id field should match the query in url'
+            assert int(response_in_dict.get('id')) == 2, f"Id field should match the query in url {response_in_dict.get('id')}"
         elif self.url == multiple_article_url:
             assert type(response_in_dict) == list, 'Multiple articles should be returned as a list'
             assert 'id' in response_in_dict[0], 'First article should have expected field'
