@@ -41,8 +41,8 @@ This repository contains the api test created for sky technical test by Ravi
 	# Pytest is used to run tests, 
         1. To run all tests run below command from project root folder
             python3 -m pytest
-        2. To run all tests in parallel for example in 3 instances use below command
-            python3 -m pytest -n 3
+        2. To run all tests in parallel for example in 2 instances use below command
+            python3 -m pytest -n 2
         3. To run a specific test file
 	        python3 -m pytest python_test_file_name.py
 
