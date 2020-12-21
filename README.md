@@ -3,7 +3,7 @@ This repository contains the api test created for sky technical test by Ravi
 
 # Branching structure
     1.'master' branch is the main branch
-    2.test can be found in 'master' branch
+    2.tests can be found in 'master' branch
 
 # Folder structure
 	1.Al tests are in tests folder
